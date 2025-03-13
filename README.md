@@ -31,29 +31,29 @@ Interactive dashboard analyzing technology tool adoption and career outcomes of 
     -Filters automatically update all visualizations
    
 **General Overview Tab**
-    -Campus distribution bar chart
-    -Study field distribution pie chart
-    -Total respondents counter
-    -Top 3 campuses comparison
+   - Campus distribution bar chart
+   - Study field distribution pie chart
+   - Total respondents counter
+   - Top 3 campuses comparison
     
 **Employment Trends Tab**
-    -Employment status breakdown
-    -Industry distribution analysis
-    -Role popularity visualization
+   - Employment status breakdown
+   - Industry distribution analysis
+   - Role popularity visualization
     
 **Tech Tools Tab**
-    -For each tool category (Programming Languages, Databases, etc.):
-    -Use the dropdown to select specific tools
-    -Choose visualization type (Bar/Dot/Pie)
-    -Hover over charts for detailed tooltips
-    -Click legend items to show/hide categories
+   - For each tool category (Programming Languages, Databases, etc.):
+   - Use the dropdown to select specific tools
+   - Choose visualization type (Bar/Dot/Pie)
+   - Hover over charts for detailed tooltips
+   - Click legend items to show/hide categories
     
 **Raw Data Tab**
-  -View full dataset
-  -Export data using buttons: CSV, Excel, PDF, etc.
+ - View full dataset
+ - Export data using buttons: CSV, Excel, PDF, etc.
 
 **Technical Details**
-  -Built with: shiny, plotly, dplyr, tidyr
-  -Color schemes: RColorBrewer palettes
-  -Data processing: Uses tech_summary() function to aggregate tool usage
-  -Responsive design: Works in modern browsers
+  - Built with: shiny, plotly, dplyr, tidyr
+  - Color schemes: RColorBrewer palettes
+  - Data processing: Uses tech_summary() function to aggregate tool usage
+  - Responsive design: Works in modern browsers
