@@ -26,9 +26,9 @@ Interactive dashboard analyzing technology tool adoption and career outcomes of 
 
 4. Usage Instructions
 **Sidebar Controls**
-    -Campus Filter : Select one or multiple campuses
-    -Study Field Filter : Select one or multiple fields of study
-    -Filters automatically update all visualizations
+   - Campus Filter : Select one or multiple campuses
+   - Study Field Filter : Select one or multiple fields of study
+   - Filters automatically update all visualizations
    
 **General Overview Tab**
    - Campus distribution bar chart
