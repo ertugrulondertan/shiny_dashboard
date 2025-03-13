@@ -55,8 +55,8 @@ cleaned_data <- raw_data %>%
   ) %>%
   # Calculate campus counts and keep only top 3
   add_count(campus, name = "campus_count") %>%
-  filter(campus_count >= quantile(campus_count, 0.75, na.rm = TRUE)) %>% # Keep top 25% (adjust as needed)
-  select(-campus_count) # Remove temporary count column
+  filter(campus_count >= quantile(campus_count, 0.75, na.rm = TRUE)) %>% 
+  select(-campus_count) 
 
 # Save outputs to data folder
 write_csv(cleaned_data, cleaned_path)
