@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Instagram, Linkedin, Twitter, Facebook } from "lucide-react"
 
 const quickLinks = [
@@ -35,7 +36,13 @@ export function TNFooter() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
-              <span className="text-2xl font-bold text-foreground">TN Creative</span>
+              <Image
+                src="/images/tn-creative-logo.png"
+                alt="TN Creative"
+                width={140}
+                height={56}
+                className="h-12 w-auto object-contain brightness-0 invert"
+              />
             </Link>
             <p className="text-muted-foreground text-sm mb-6 text-pretty">
               A creative agency focused on helping brands stand out with strong visuals, 
