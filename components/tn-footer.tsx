@@ -99,13 +99,13 @@ export function TNFooter() {
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-3">
               <li className="text-sm text-muted-foreground">
-                hello@tncreative.co.za
+                ertugrultan@tncreative.co.za
               </li>
               <li className="text-sm text-muted-foreground">
-                +27 12 345 6789
+                +27 72 574 26 96
               </li>
               <li className="text-sm text-muted-foreground">
-                Johannesburg, South Africa
+                36 Fort St, Birnam, Johannesburg, 2196
               </li>
             </ul>
           </div>
