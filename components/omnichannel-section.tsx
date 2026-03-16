@@ -40,7 +40,7 @@ export function OmnichannelSection() {
     {
       icon: Phone,
       name: "Phone",
-      color: "from-orange-500 to-red-500",
+      color: "from-blue-500 to-cyan-500",
       description: "Voice receptionist",
     },
   ]

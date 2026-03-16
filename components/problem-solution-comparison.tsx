@@ -73,16 +73,16 @@ export function ProblemSolutionComparison() {
       <div
         className={`max-w-6xl mx-auto px-4 mb-12 text-center transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/30 mb-6">
-          <div className="w-2 h-2 rounded-full bg-red-400" />
-          <span className="text-red-400 text-sm font-semibold uppercase tracking-wider">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/30 mb-6">
+          <div className="w-2 h-2 rounded-full bg-blue-400" />
+          <span className="text-blue-400 text-sm font-semibold uppercase tracking-wider">
             The Cost of Missed Opportunities
           </span>
         </div>
 
         <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
           Stop Losing{" "}
-          <span className="bg-gradient-to-r from-red-400 via-orange-400 to-red-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
             €200K+
           </span>{" "}
           Annually
@@ -106,8 +106,8 @@ export function ProblemSolutionComparison() {
                       Channel
                     </th>
                     <th className="text-left py-6 px-6">
-                      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-red-50 border-l-4 border-red-500">
-                        <span className="text-red-600 font-semibold">Without Cliste</span>
+                      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-50 border-l-4 border-blue-500">
+                        <span className="text-blue-600 font-semibold">Without Cliste</span>
                       </div>
                     </th>
                     <th className="text-left py-6 px-6">
@@ -130,7 +130,7 @@ export function ProblemSolutionComparison() {
                       </td>
                       <td className="py-5 px-6">
                         <div className="flex items-start gap-2">
-                          <X className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
+                          <X className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" />
                           <span className="text-slate-700 text-sm">{item.problem}</span>
                         </div>
                       </td>
@@ -148,7 +148,7 @@ export function ProblemSolutionComparison() {
                     </td>
                     <td className="py-10 px-12">
                       <div className="relative inline-block">
-                        <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
+                        <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">
                           €200K+ Lost
                         </div>
                         {showCircle && (
@@ -165,7 +165,7 @@ export function ProblemSolutionComparison() {
                               cy="35"
                               rx="105"
                               ry="30"
-                              stroke="url(#redGradient)"
+                              stroke="url(#blueGradient)"
                               strokeWidth="3"
                               strokeLinecap="round"
                               fill="none"
@@ -176,9 +176,9 @@ export function ProblemSolutionComparison() {
                               }}
                             />
                             <defs>
-                              <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stopColor="#ef4444" stopOpacity="0.8" />
-                                <stop offset="100%" stopColor="#dc2626" stopOpacity="0.8" />
+                              <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.8" />
+                                <stop offset="100%" stopColor="#2563eb" stopOpacity="0.8" />
                               </linearGradient>
                             </defs>
                           </svg>
@@ -245,9 +245,9 @@ export function ProblemSolutionComparison() {
                 </div>
 
                 <div className="grid grid-cols-2 divide-x divide-slate-200">
-                  <div className="p-4 bg-red-50/50">
+                  <div className="p-4 bg-blue-50/50">
                     <div className="flex items-start gap-2">
-                      <X className="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" />
+                      <X className="w-4 h-4 text-blue-500 flex-shrink-0 mt-0.5" />
                       <span className="text-xs text-slate-700 leading-relaxed">{item.problem}</span>
                     </div>
                   </div>
@@ -267,9 +267,9 @@ export function ProblemSolutionComparison() {
                 <span className="text-slate-700 font-semibold text-xs uppercase tracking-wider">Annual Impact</span>
               </div>
               <div className="grid grid-cols-2 divide-x divide-slate-200">
-                <div className="p-4 py-8 bg-red-50/50 flex items-center justify-center">
+                <div className="p-4 py-8 bg-blue-50/50 flex items-center justify-center">
                   <div className="relative inline-block">
-                    <div className="text-lg font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent whitespace-nowrap">
+                    <div className="text-lg font-bold bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent whitespace-nowrap">
                       €200K+ Lost
                     </div>
                     {showCircle && (
@@ -286,7 +286,7 @@ export function ProblemSolutionComparison() {
                           cy="27.5"
                           rx="70"
                           ry="23"
-                          stroke="url(#redGradientMobile)"
+                          stroke="url(#blueGradientMobile)"
                           strokeWidth="2.5"
                           strokeLinecap="round"
                           fill="none"
@@ -297,9 +297,9 @@ export function ProblemSolutionComparison() {
                           }}
                         />
                         <defs>
-                          <linearGradient id="redGradientMobile" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stopColor="#ef4444" stopOpacity="0.8" />
-                            <stop offset="100%" stopColor="#dc2626" stopOpacity="0.8" />
+                          <linearGradient id="blueGradientMobile" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.8" />
+                            <stop offset="100%" stopColor="#2563eb" stopOpacity="0.8" />
                           </linearGradient>
                         </defs>
                       </svg>
