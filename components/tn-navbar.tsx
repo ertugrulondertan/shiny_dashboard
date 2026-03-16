@@ -66,8 +66,9 @@ export function TNNavbar() {
             <Button
               size="sm"
               className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-6"
+              asChild
             >
-              Book a Call
+              <a href="tel:+27725742696">Book a Call</a>
             </Button>
           </div>
 
@@ -98,8 +99,9 @@ export function TNNavbar() {
               <Button
                 size="sm"
                 className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground mt-2"
+                asChild
               >
-                Book a Call
+                <a href="tel:+27725742696">Book a Call</a>
               </Button>
             </div>
           </div>
