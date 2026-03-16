@@ -121,13 +121,13 @@ export function SplitScreenBeforeAfter() {
                 sectionInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 border border-orange-200 mb-4">
-                <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Clutch by Cliste</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-200 mb-4">
+                <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Clutch by Cliste</span>
               </div>
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 lg:mb-12 text-balance">
                 <span className="text-slate-900">Never miss a lead with</span>{" "}
-                <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                   Clutch by Cliste
                 </span>
               </h2>
@@ -191,16 +191,16 @@ export function SplitScreenBeforeAfter() {
                   whatsappInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                 }`}
               >
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 border border-orange-200 mb-4">
-                  <svg className="w-4 h-4 text-orange-600" fill="currentColor" viewBox="0 0 24 24">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-200 mb-4">
+                  <svg className="w-4 h-4 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
                   </svg>
-                  <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Messaging</span>
+                  <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Messaging</span>
                 </div>
 
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
                   <span className="text-slate-900">Respond to every message</span>{" "}
-                  <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                     instantly, 24/7
                   </span>
                 </h2>
@@ -435,10 +435,10 @@ export function SplitScreenBeforeAfter() {
                     >
                       <div className="bg-slate-900 rounded-[2rem] sm:rounded-[2.5rem] p-2 sm:p-3 lg:p-4 shadow-2xl border-[6px] sm:border-8 border-slate-800 aspect-[9/19.5] lg:aspect-auto lg:h-[700px] overflow-hidden">
                         <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-t-xl sm:rounded-t-[1.25rem] px-3 py-4 sm:py-5 lg:py-8 text-center border-b border-slate-700">
-                          <div className="text-red-400 text-[9px] sm:text-[10px] lg:text-sm mb-2 lg:mb-3 font-medium tracking-wide">
+                          <div className="text-blue-400 text-[9px] sm:text-[10px] lg:text-sm mb-2 lg:mb-3 font-medium tracking-wide">
                             MISSED CALL
                           </div>
-                          <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 mx-auto rounded-full bg-gradient-to-br from-red-500 via-red-600 to-red-700 flex items-center justify-center mb-2 sm:mb-3 lg:mb-4 shadow-lg shadow-red-500/30 ring-4 ring-red-500/20">
+                          <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 mx-auto rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 flex items-center justify-center mb-2 sm:mb-3 lg:mb-4 shadow-lg shadow-blue-500/30 ring-4 ring-blue-500/20">
                             <svg
                               className="w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10 text-white"
                               fill="none"
@@ -459,9 +459,9 @@ export function SplitScreenBeforeAfter() {
                           </div>
                         </div>
                         <div className="bg-slate-900 rounded-b-xl sm:rounded-b-[1.25rem] p-2 sm:p-3 lg:p-4 h-[calc(100%-140px)] lg:h-[calc(100%-200px)] overflow-hidden flex flex-col">
-                          <div className="bg-gradient-to-br from-red-500/20 to-red-600/20 border-2 border-red-500/40 rounded-xl p-2 lg:p-3 mb-2 lg:mb-3">
+                          <div className="bg-gradient-to-br from-blue-500/20 to-blue-600/20 border-2 border-blue-500/40 rounded-xl p-2 lg:p-3 mb-2 lg:mb-3">
                             <div className="text-center">
-                              <div className="text-red-400 text-[10px] sm:text-xs lg:text-sm font-bold mb-1">
+                              <div className="text-blue-400 text-[10px] sm:text-xs lg:text-sm font-bold mb-1">
                                 WE'RE CURRENTLY CLOSED
                               </div>
                               <div className="text-slate-300 text-[8px] sm:text-[10px] lg:text-xs">
@@ -488,7 +488,7 @@ export function SplitScreenBeforeAfter() {
                               </div>
                               <div className="flex justify-between">
                                 <span className="text-slate-400">Status</span>
-                                <span className="text-red-400 font-semibold">Unanswered</span>
+                                <span className="text-blue-400 font-semibold">Unanswered</span>
                               </div>
                             </div>
                           </div>
@@ -511,10 +511,10 @@ export function SplitScreenBeforeAfter() {
                             </div>
                           </div>
 
-                          <div className="mt-auto bg-gradient-to-br from-red-500/20 to-red-600/20 border-2 border-red-500/40 rounded-xl p-2 lg:p-3">
+                          <div className="mt-auto bg-gradient-to-br from-blue-500/20 to-blue-600/20 border-2 border-blue-500/40 rounded-xl p-2 lg:p-3">
                             <div className="flex items-center justify-center gap-1.5">
                               <svg
-                                className="w-3 h-3 lg:w-4 lg:h-4 text-red-400"
+                                className="w-3 h-3 lg:w-4 lg:h-4 text-blue-400"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                               >
@@ -524,7 +524,7 @@ export function SplitScreenBeforeAfter() {
                                   clipRule="evenodd"
                                 />
                               </svg>
-                              <span className="text-red-400 text-[9px] sm:text-[10px] lg:text-sm font-bold uppercase tracking-wide">
+                              <span className="text-blue-400 text-[9px] sm:text-[10px] lg:text-sm font-bold uppercase tracking-wide">
                                 Lead Lost
                               </span>
                             </div>
@@ -541,7 +541,7 @@ export function SplitScreenBeforeAfter() {
                         <div className="text-slate-400 text-[9px] sm:text-[10px] lg:text-sm mb-2 lg:mb-3 font-medium tracking-wide">
                           INCOMING CALL
                         </div>
-                        <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 mx-auto rounded-full bg-gradient-to-br from-orange-500 via-orange-600 to-red-600 flex items-center justify-center mb-2 sm:mb-3 lg:mb-4 shadow-lg shadow-orange-500/30 ring-4 ring-orange-500/20">
+                        <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-20 lg:h-20 mx-auto rounded-full bg-gradient-to-br from-blue-500 via-blue-600 to-cyan-600 flex items-center justify-center mb-2 sm:mb-3 lg:mb-4 shadow-lg shadow-blue-500/30 ring-4 ring-blue-500/20">
                           <svg
                             className="w-6 h-6 sm:w-7 sm:h-7 lg:w-10 lg:h-10 text-white"
                             fill="none"
@@ -575,7 +575,7 @@ export function SplitScreenBeforeAfter() {
                             {[...Array(20)].map((_, i) => (
                               <div
                                 key={i}
-                                className="flex-1 bg-gradient-to-t from-orange-500 to-orange-400 rounded-full"
+                                className="flex-1 bg-gradient-to-t from-blue-500 to-blue-400 rounded-full"
                                 style={{
                                   height: `${Math.random() * 60 + 40}%`,
                                   animation: `pulse ${Math.random() * 0.5 + 0.5}s ease-in-out infinite`,
@@ -588,7 +588,7 @@ export function SplitScreenBeforeAfter() {
                         <div className="bg-slate-800/50 rounded-xl p-2 sm:p-3 lg:p-4 border border-slate-700/50">
                           <div className="flex items-center gap-2 mb-2 lg:mb-3">
                             <svg
-                              className="w-3 h-3 lg:w-4 lg:h-4 text-orange-400"
+                              className="w-3 h-3 lg:w-4 lg:h-4 text-blue-400"
                               fill="currentColor"
                               viewBox="0 0 20 20"
                             >
@@ -603,8 +603,8 @@ export function SplitScreenBeforeAfter() {
                             </span>
                           </div>
                           <div className="space-y-2 lg:space-y-3 text-[8px] sm:text-[9px] lg:text-xs">
-                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-orange-500">
-                              <div className="text-orange-400 font-semibold mb-0.5">Cliste</div>
+                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-blue-500">
+                              <div className="text-blue-400 font-semibold mb-0.5">Cliste</div>
                               <div className="text-slate-300 leading-relaxed">
                                 "The Audi A4 is available. Would you like to schedule a test drive?"
                               </div>
@@ -615,8 +615,8 @@ export function SplitScreenBeforeAfter() {
                                 "Yes please! What times do you have available this week?"
                               </div>
                             </div>
-                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-orange-500">
-                              <div className="text-orange-400 font-semibold mb-0.5">Cliste</div>
+                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-blue-500">
+                              <div className="text-blue-400 font-semibold mb-0.5">Cliste</div>
                               <div className="text-slate-300 leading-relaxed">
                                 "I have tomorrow at 11am, Thursday at 3pm, or Friday at 10am..."
                               </div>
@@ -627,8 +627,8 @@ export function SplitScreenBeforeAfter() {
                                 "Thursday at 3pm works perfectly. What's the price on that model?"
                               </div>
                             </div>
-                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-orange-500">
-                              <div className="text-orange-400 font-semibold mb-0.5">Cliste</div>
+                            <div className="bg-slate-900/50 rounded-lg p-2 border-l-2 border-blue-500">
+                              <div className="text-blue-400 font-semibold mb-0.5">Cliste</div>
                               <div className="text-slate-300 leading-relaxed">
                                 "The Audi A4 is priced at €32,500. It's a 2023 model with 12,000km. Would you like to
                                 discuss financing options?"
@@ -637,10 +637,10 @@ export function SplitScreenBeforeAfter() {
                           </div>
                         </div>
 
-                        <div className="bg-gradient-to-br from-orange-500/20 to-red-500/20 border-2 border-orange-500/40 rounded-xl p-2 lg:p-3 shadow-lg shadow-orange-500/10">
+                        <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border-2 border-blue-500/40 rounded-xl p-2 lg:p-3 shadow-lg shadow-blue-500/10">
                           <div className="flex items-center gap-1.5">
                             <svg
-                              className="w-3 h-3 lg:w-4 lg:h-4 text-orange-400"
+                              className="w-3 h-3 lg:w-4 lg:h-4 text-blue-400"
                               fill="currentColor"
                               viewBox="0 0 20 20"
                             >
@@ -651,21 +651,21 @@ export function SplitScreenBeforeAfter() {
                                 clipRule="evenodd"
                               />
                             </svg>
-                            <span className="text-orange-300 text-[9px] sm:text-[10px] lg:text-xs font-bold uppercase tracking-wide">
+                            <span className="text-blue-300 text-[9px] sm:text-[10px] lg:text-xs font-bold uppercase tracking-wide">
                               Lead Insights
                             </span>
                           </div>
                           <div className="grid grid-cols-2 gap-1.5 text-[8px] sm:text-[9px] lg:text-xs">
-                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-orange-500/20">
-                              <div className="text-orange-300 font-semibold">High Intent</div>
+                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-blue-500/20">
+                              <div className="text-blue-300 font-semibold">High Intent</div>
                               <div className="text-slate-300">Ready to buy</div>
                             </div>
-                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-orange-500/20">
-                              <div className="text-orange-300 font-semibold">€30-35k</div>
+                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-blue-500/20">
+                              <div className="text-blue-300 font-semibold">€30-35k</div>
                               <div className="text-slate-300">Budget range</div>
                             </div>
-                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-orange-500/20 col-span-2">
-                              <div className="text-orange-300 font-semibold">Audi A4 • Sedan • Automatic</div>
+                            <div className="bg-slate-900/40 rounded-lg p-1.5 border border-blue-500/20 col-span-2">
+                              <div className="text-blue-300 font-semibold">Audi A4 • Sedan • Automatic</div>
                               <div className="text-slate-300">Vehicle preferences</div>
                             </div>
                           </div>
@@ -680,8 +680,8 @@ export function SplitScreenBeforeAfter() {
                     voiceInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   }`}
                 >
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 border border-orange-200 mb-4">
-                    <svg className="w-4 h-4 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-200 mb-4">
+                    <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -689,12 +689,12 @@ export function SplitScreenBeforeAfter() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">Voice Calls</span>
+                    <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">Voice Calls</span>
                   </div>
 
                   <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
                     <span className="text-slate-900">Answer every call</span>{" "}
-                    <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                       instantly, 24/7
                     </span>
                   </h2>
@@ -762,8 +762,8 @@ export function SplitScreenBeforeAfter() {
                     serviceInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   }`}
                 >
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 border border-orange-200 mb-4">
-                    <svg className="w-4 h-4 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-200 mb-4">
+                    <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -777,14 +777,14 @@ export function SplitScreenBeforeAfter() {
                         d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                    <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">
+                    <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">
                       Service & Parts
                     </span>
                   </div>
 
                   <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
                     <span className="text-slate-900">Automate Service</span>{" "}
-                    <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                       Bookings & Parts
                     </span>
                   </h2>
@@ -798,7 +798,7 @@ export function SplitScreenBeforeAfter() {
                   <div className="space-y-6">
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path
                               fillRule="evenodd"
@@ -817,7 +817,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zM12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z" />
                           </svg>
@@ -832,7 +832,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                             <path
@@ -852,7 +852,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -880,13 +880,13 @@ export function SplitScreenBeforeAfter() {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:rotate-6 w-full max-w-[380px]">
                       <div className="bg-white rounded-3xl overflow-hidden">
                         {/* Chat header */}
-                        <div className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-4 flex items-center gap-3">
+                        <div className="bg-gradient-to-r from-blue-500 to-cyan-500 px-6 py-4 flex items-center gap-3">
                           <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
                             <span className="text-white font-bold text-lg">PM</span>
                           </div>
                           <div className="flex-1">
                             <div className="text-white font-bold text-lg">premium_motors</div>
-                            <div className="text-orange-100 text-sm">Active now</div>
+                            <div className="text-blue-100 text-sm">Active now</div>
                           </div>
                         </div>
 
@@ -904,7 +904,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   I'd be happy to help! What type of service do you need? We have slots available this
                                   week.
@@ -928,7 +928,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   Yes! We have brake pads in stock. I can book you in for Thursday at 2 PM and include
                                   the brake pad replacement. Total: €180
@@ -950,7 +950,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   I've added an oil filter (#GF35) to your order. Your appointment is confirmed for
                                   Thursday at 2 PM. See you then!
@@ -975,13 +975,13 @@ export function SplitScreenBeforeAfter() {
                   <div className="relative h-[650px] overflow-hidden">
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:-rotate-6 w-full max-w-[380px]">
                       <div className="bg-white rounded-3xl overflow-hidden">
-                        <div className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-4 flex items-center gap-3">
+                        <div className="bg-gradient-to-r from-blue-500 to-cyan-500 px-6 py-4 flex items-center gap-3">
                           <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
                             <span className="text-white font-bold text-lg">PM</span>
                           </div>
                           <div className="flex-1">
                             <div className="text-white font-bold text-lg">Premium Motors</div>
-                            <div className="text-orange-100 text-sm">Active now</div>
+                            <div className="text-blue-100 text-sm">Active now</div>
                           </div>
                         </div>
 
@@ -998,7 +998,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   The BMW has a fresh NCT valid until March 2026. Full service history available!
                                 </p>
@@ -1019,7 +1019,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   45,000 miles with full dealer service history. Would you like to schedule a test
                                   drive?
@@ -1041,7 +1041,7 @@ export function SplitScreenBeforeAfter() {
 
                           <div className="flex gap-3 justify-end">
                             <div className="flex-1 flex flex-col items-end">
-                              <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
+                              <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl rounded-tr-none px-4 py-3 shadow-sm max-w-[85%]">
                                 <p className="text-white text-sm">
                                   Yes! We offer competitive trade-in values. What vehicle are you looking to trade?
                                 </p>
@@ -1061,8 +1061,8 @@ export function SplitScreenBeforeAfter() {
                     tyreKickersInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                   }`}
                 >
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-orange-100 to-red-100 border border-orange-200 mb-4">
-                    <svg className="w-4 h-4 text-orange-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 border border-blue-200 mb-4">
+                    <svg className="w-4 h-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -1070,14 +1070,14 @@ export function SplitScreenBeforeAfter() {
                         d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
                       />
                     </svg>
-                    <span className="text-orange-600 font-semibold text-sm uppercase tracking-wide">
+                    <span className="text-blue-600 font-semibold text-sm uppercase tracking-wide">
                       Smart Filtering
                     </span>
                   </div>
 
                   <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-balance">
                     <span className="text-slate-900">Handle Tyre Kickers</span>{" "}
-                    <span className="bg-gradient-to-r from-orange-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
                       Automatically
                     </span>
                   </h2>
@@ -1091,7 +1091,7 @@ export function SplitScreenBeforeAfter() {
                   <div className="space-y-6">
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path
                               fillRule="evenodd"
@@ -1110,7 +1110,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                             <path
@@ -1130,7 +1130,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path
                               fillRule="evenodd"
@@ -1148,7 +1148,7 @@ export function SplitScreenBeforeAfter() {
 
                     <div>
                       <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                           <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path
                               fillRule="evenodd"

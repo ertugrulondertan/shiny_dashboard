@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { useEffect, useRef, useState } from "react"
 
 const AlertTriangle = () => (
-  <svg className="h-6 w-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg className="h-6 w-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -74,11 +74,11 @@ export function ProblemSolutionSection() {
           }`}
         >
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium mb-6">
-            <span className="w-2 h-2 bg-red-400 rounded-full mr-2 animate-pulse"></span>
+            <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 animate-pulse"></span>
             The Problem Every Business Faces
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-balance mb-4 sm:mb-6">
-            <span className="text-red-400">60-70%</span> of Your Leads Are Slipping Away
+            <span className="text-blue-400">60-70%</span> of Your Leads Are Slipping Away
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-white/70 max-w-3xl mx-auto font-light leading-relaxed">
             While you're busy serving customers, your online inquiries are going unanswered. Here's how we fix it.
@@ -93,17 +93,17 @@ export function ProblemSolutionSection() {
         >
           {/* Problem Card */}
           <div className="group">
-            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 sm:p-8 h-full hover:bg-white/10 transition-all duration-500 hover:border-red-400/30">
+            <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 sm:p-8 h-full hover:bg-white/10 transition-all duration-500 hover:border-blue-400/30">
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 rounded-lg bg-red-500/20">
+                <div className="p-2 rounded-lg bg-blue-500/20">
                   <AlertTriangle />
                 </div>
-                <h3 className="text-xl sm:text-2xl font-bold text-red-400">The Reality</h3>
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-400">The Reality</h3>
               </div>
 
               {/* Key Stat */}
-              <div className="bg-red-500/10 backdrop-blur-sm border border-red-500/20 rounded-xl p-4 sm:p-6 mb-6">
-                <div className="text-3xl sm:text-4xl font-bold text-red-400 mb-2">4+ Hours</div>
+              <div className="bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 rounded-xl p-4 sm:p-6 mb-6">
+                <div className="text-3xl sm:text-4xl font-bold text-blue-400 mb-2">4+ Hours</div>
                 <p className="text-white/80 text-sm sm:text-base">
                   Average response time, but 78% of customers choose the first business to respond
                 </p>
@@ -112,19 +112,19 @@ export function ProblemSolutionSection() {
               {/* Problem Points */}
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-white/70 text-sm sm:text-base">
                     Staff miss inquiries during off-hours and weekends
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-white/70 text-sm sm:text-base">
                     Busy serving customers while online leads go cold
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-white/70 text-sm sm:text-base">Marketing spend wasted on unresponded inquiries</p>
                 </div>
               </div>
