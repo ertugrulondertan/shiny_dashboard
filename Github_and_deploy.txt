@@ -1,3 +1,0 @@
-Link to the GitHub repository : https://github.com/ertugrulondertan/shiny_dashboard
-
-Link to the deployed dashboard : https://ertugrulondertan.shinyapps.io/dashboard/
