@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -37,15 +36,10 @@ export function TNNavbar() {
       >
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/images/tn-creative-logo.png"
-              alt="TN Creative"
-              width={120}
-              height={48}
-              className="h-10 w-auto object-contain brightness-0 invert"
-              priority
-            />
+          <Link href="/" className="flex items-center gap-2">
+            <span className="text-xl font-bold tracking-tight text-foreground">
+              TN CREATIVE
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
