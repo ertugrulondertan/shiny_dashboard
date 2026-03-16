@@ -31,17 +31,23 @@ export function TNCTA() {
             <Button
               size="lg"
               className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-base font-medium group"
+              asChild
             >
-              Book a Call
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              <a href="tel:+27725742696">
+                Book a Call
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="rounded-full border-border/50 bg-card/50 backdrop-blur-sm hover:bg-card text-foreground px-8 py-6 text-base font-medium"
+              asChild
             >
-              <Mail className="mr-2 h-4 w-4" />
-              Send an Enquiry
+              <a href="mailto:ertugrultan@tncreative.co.za">
+                <Mail className="mr-2 h-4 w-4" />
+                Send an Enquiry
+              </a>
             </Button>
           </div>
         </div>

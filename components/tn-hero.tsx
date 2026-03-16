@@ -48,9 +48,12 @@ export function TNHero() {
           <Button
             size="lg"
             className="rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-base font-medium group"
+            asChild
           >
-            Get Started
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            <a href="tel:+27725742696">
+              Get Started
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
           <Button
             size="lg"
