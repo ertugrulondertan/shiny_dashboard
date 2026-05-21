@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`font-sans antialiased ${inter.variable}`}>
-        <Script src="https://esnaf-local-seo.vercel.app/api/seo-pixel/e2215b31-d3c0-47e8-acbb-ff42fa1e8b3d?v=1" strategy="afterInteractive" /> 
+       <Script src="https://esnaf-local-seo.vercel.app/api/seo-pixel/e2215b31-d3c0-47e8-acbb-ff42fa1e8b3d?v=16" strategy="afterInteractive" /> 
         {children}
         <SpeedInsights />
       </body>
