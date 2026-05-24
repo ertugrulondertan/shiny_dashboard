@@ -1,139 +1,27 @@
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "tncreative",
-      "description": "tncreative — social media management. social media management Sandton, creative agency South Africa, Digital agency, Seo, Local Seo, Website creation. South Africa, South Africa.",
-      "serviceType": "social media management Sandton, creative agency South Africa, Digital agency, Seo, Local Seo, Website creation",
-      "url": "https://www.tncreative.co.za/",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "South Africa",
-        "addressCountry": "ZA"
-      },
-      "areaServed": [
-        "South Africa",
-        "Sandton, Gauteng",
-        "South Africa"
-      ],
-      "knowsAbout": [
-        "social media management Sandton",
-        "creative agency South Africa",
-        "Digital agency",
-        "Seo",
-        "Local Seo",
-        "Website creation"
-      ]
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-0",
-      "name": "social media management Sandton",
-      "description": "social media management Sandton by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-1",
-      "name": "creative agency South Africa",
-      "description": "creative agency South Africa by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-2",
-      "name": "Digital agency",
-      "description": "Digital agency by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-3",
-      "name": "Seo",
-      "description": "Seo by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-4",
-      "name": "Local Seo",
-      "description": "Local Seo by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://www.tncreative.co.za/#product-5",
-      "name": "Website creation",
-      "description": "Website creation by tncreative. social media management. South Africa",
-      "brand": {
-        "@type": "Brand",
-        "name": "tncreative"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "tncreative"
-        }
-      }
-    }
-  ]
-}
+# TN Creative
+
+> TN Creative is a digital agency based in Johannesburg, South Africa, specialising in social media management, content creation, and digital marketing for local and national businesses.
+
+## Services
+- Social Media Management: Strategy, scheduling, community management, and growth for Instagram, Facebook, TikTok, and LinkedIn
+- Content Creation: Photography, videography, graphic design, and copywriting for social media channels
+- Digital Marketing: Paid social, SEO, email marketing, and online brand strategy
+- Brand Identity: Logo design, brand guidelines, and visual identity for new and established businesses
+
+## Location
+- City: Johannesburg
+- Region: Gauteng
+- Country: South Africa
+- Website: https://www.tncreative.co.za
+
+## Target Customers
+Small to medium businesses in Johannesburg and across South Africa looking to grow their online presence and social media engagement.
+
+## Keywords
+social media management Johannesburg, digital agency South Africa, content creation Johannesburg, social media agency Sandton, digital marketing Gauteng, Instagram management South Africa
+
+## Contact
+https://www.tncreative.co.za/contact
+
+---
+*Last updated: May 2026*
