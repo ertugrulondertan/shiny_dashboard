@@ -7,6 +7,10 @@ import { TNProcess } from "@/components/tn-process"
 import { TNAbout } from "@/components/tn-about"
 import { TNCTA } from "@/components/tn-cta"
 import { TNFooter } from "@/components/tn-footer"
+import { homeMetadata } from "@/lib/seo"
+
+export const metadata = homeMetadata
+
 
 export default function Home() {
   return (
