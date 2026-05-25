@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { HOME_DESCRIPTION, HOME_TITLE, SITE_URL, localBusinessJsonLd } from "@/lib/seo"
+import Script from "next/script"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <Script src="https://esnaf-local-seo.vercel.app/api/seo-pixel/4451d9be-e3b2-4aef-85c8-1f16782c2af1?v=6" strategy="afterInteractive" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
